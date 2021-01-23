@@ -1,0 +1,19 @@
+﻿
+##Image mit l4t builden auf Basis von Dockerfile in Ordner
+docker build -t l4t .
+
+##Docker-Container auf Basis eines Images l4t starten
+docker run -t -d -i -p 3005:3001 l4t
+
+Ports: host:container
+##Laufende Docker-Container anzeigen
+docker ps
+
+##Laufende und gestoppte Docker-Container anzeigen
+docker ps -a
+
+##Docker Container löschen
+docker kill 51dc120e501c
+
+##Auf Docker container hängen
+docker attach sad_curie
