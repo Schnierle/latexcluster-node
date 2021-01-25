@@ -17,7 +17,7 @@ config.resolution                 = {};
 config.resolution.min             = 50;
 config.resolution.max             = 800;
 /**#############################################################################################################
-### @alias Zugangsdaten_zur_WebStudio_Datenbank
+### @alias Zugangsdaten
 #############################################################################################################*/
 config.thumbnail                  = {};
 config.thumbnail.resolution       = 100;
