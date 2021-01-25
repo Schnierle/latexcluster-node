@@ -28,12 +28,6 @@ const misc                          = require(path.join(global.srcFolder,"misc.j
 
 var timeout = require('express-timeout-handler');
 
-//const LaTeX4technics                = require(src_path+'/latex4technics.api.js').LaTeX4technics;
-//const L4tDatabase                   = require(src_path+'/database.api.js').L4tDatabase;
-
-//const {VM} = require('vm2');
-
-
 /**##############################################################################################################
 ### @alias Render Engine
 ###
