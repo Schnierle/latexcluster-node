@@ -1,9 +1,0 @@
-\documentclass{article}
-\pagenumbering{gobble}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage[dvipsnames]{xcolor}
-\begin{document}
-$$${editorvalue}$$
-\end{document}
